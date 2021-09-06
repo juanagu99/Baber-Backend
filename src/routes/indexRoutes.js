@@ -15,7 +15,7 @@ router.post('/changePassword', usersController.changePassword)
 router.post('/updateUser', usersController.updateUser)
 router.get('/getUser', usersController.getOneUser)
 router.get('/getAllUsers', usersController.getUsers)
-router.get('/', (res) => {
+router.get('/', (req,res) => {
     res.send("service connect.");
 } )
 //rutas de reservas
