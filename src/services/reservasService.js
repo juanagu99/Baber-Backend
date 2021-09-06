@@ -5,7 +5,7 @@ exports.newReserva = (body) => {
     let reservaTosave = new reservaSchema({
         idReserva: body.idReserva,
         description: body.description,
-        client: body.client,
+        email: body.email,
         barber: body.barber,
         date: body.date,
         state: body.state

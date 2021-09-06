@@ -10,7 +10,7 @@ const ReservaSchema = Schema({
         type: String,
         required: true
     },
-    client: {
+    email: {
         type: String,
         required: true
     },
@@ -28,5 +28,5 @@ const ReservaSchema = Schema({
     },
 })
 
-const reservas = mongoose.model("reserva", ReservaSchema)
+const reservas = mongoose.model("bookings", ReservaSchema)
 module.exports = reservas
