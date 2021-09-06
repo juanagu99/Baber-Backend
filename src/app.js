@@ -11,9 +11,7 @@ const router = require('./routes/indexRoutes.js')
 app.use(cors())
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
-app.use("/",(req,res)=>{
-    res.send("Welcome to barber service.")
-})
+
 app.use(router)
 
 module.exports = app;
