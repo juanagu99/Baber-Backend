@@ -2,11 +2,11 @@
   "name": "afrodita-backend",
   "version": "1.0.0",
   "description": "module of login and registry. backend",
-  "main": "src/app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon src/app.js",
+    "start": "node index.js",
     "test": "mocha",
-    "dev": "nodemon src/app.js"
+    "dev": "node index.js"
   },
   "author": "ariasDev",
   "license": "MIT",
