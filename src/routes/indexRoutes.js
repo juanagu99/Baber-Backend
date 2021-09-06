@@ -21,5 +21,4 @@ router.post('/newReserva', reservasController.saveReserva)
 router.post('/updateState', reservasController.updateState)
 
 
-
 module.exports = router
